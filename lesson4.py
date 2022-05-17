@@ -1,7 +1,7 @@
 #integer operation
 x = 100
 y = 300
-sum_of = x + y
+sum_of =  x + y
 diff = y - x
 prod = x * y
 quot = y / x
