@@ -4,6 +4,7 @@
 
 #let type input
 
-radius = input("enter the radius of the circle")
-PI = 3.142
-area = radius * PI
+radius = input("enter the radius of a circle")
+pi = 3.142
+area =int (radius) * pi
+print("area of a circle is" + str (area))
