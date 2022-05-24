@@ -1,3 +1,7 @@
+ #!/usr/bin/python
+
+ #This is a comment
+ 
 print("Hello world")
 print("My name is Everlyne")
 print("I love movies")
@@ -8,4 +12,3 @@ print("I play volleyball")
 print("I absolutely love movies")
 print("I listen to a lot of music")
 print("I want to live in Sydney, Australia one day")
-print("My sister Yvonne is awesome!")

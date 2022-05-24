@@ -1,4 +1,5 @@
-#getting user input(you can answer without the input you can't)
+ #!/usr/bin/python
+##getting user input(you can answer without the input you can't)
 f_question = input("What is your name? ")
 
 print("I am " + f_question)

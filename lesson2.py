@@ -1,3 +1,5 @@
+ #!/usr/bin/python
+ 
 my_first_name="Everlyne"
 print("I am " + my_first_name)
 school_attended="Loreto Limuru"

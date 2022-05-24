@@ -1,57 +1,60 @@
-#stringmethods, f, dot format, string format, R strip
+ #!/usr/bin/python
+#string methods
+name = "Everlyne Njuguna"
+age = 17
+person = "I am " + str(name) + " and my age is " + str(age)
+print(person)
 
+#format method
+print("My name is {} and I am {} years old " .format(name,age) )
 
-#name =  "    Neema Gathoni   "
+#newline \n 
+print("January\nFebruary\nMarch\nApril\nMay\n")
 
+#tab \t
+print("Kisumu\tNairobi\tMombasa\tKiambu")
 
-#username = rstrip() (name)
+print ("My name is\t {}\t and I am {}\tyears old." .format(name,age))
 
+#removing spaces
+user_name = "    Addah Lovelace   "
+print(user_name.lstrip())
+print(user_name.rstrip())
 
-#age = "18"
+#changing case
+txt = "Corbyn Besson"
+#uppercase
+print(txt.upper())
+#lowercase
+txt = "CORBYN BESSON"
+print(txt.lower())
 
+#slicing words
+country = "Armenia"
+print(country[5:])
+print(country[:5]) #slices from back
 
-#age = "55"
+#replacing letters
+f_name = "Luke"
+s_name = "Boss"
+full_name = f_name + s_name
+print(full_name.replace('B' ,'G'))
 
+#split
+msg = "Hello World" #separates words and puts them in a sort of list
+print(msg.split())
 
-#person = "I am " + str (name) + "and I am " + str(age)
-#print(person)
+#length of the words and the spaces
+print(len(msg))
+print(len(full_name))
 
-
-#print(f"I am " + str (name) + "and my age is " + str(age))
-
-
-#adding new line and tab
-#print (f"name")
-
-
-
-#str(), int(), float()
-
-
-x = 40
-
-
-print = (int(x))
-
-print = (float (x))
-
-f_name = "Hate"
-
-s_name = "Adah"
-
-full_name= "f_name" + "s_name"
-
-print = ("full_name")
-
-name = "Theodore"
-
-print ("name.replace ('t' , 'g')")
-print (""split(Theodore")
-def jls_extract_def():
-    return str
-
-
-print (str (length))
+#concatination
+#converting from one data tytpe to another
+#float(decimals) to integers(numbers) and V.vars()
+x = 5  #integer
+print(float(x))
+y = 46.87
+print(int(y))
 
 
 
