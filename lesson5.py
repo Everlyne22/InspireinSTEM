@@ -16,6 +16,17 @@ print("Kisumu\tNairobi\tMombasa\tKiambu")
 
 print ("My name is\t {}\t and I am {}\tyears old." .format(name,age))
 
+msgs = '''QEN5H2OXVD confirmed
+       you have received Ksh. 50,000 from
+       LUKE HEMMINGS on 24/07/2022
+       ''' 
+print(msgs)
+
+cafe = '''Hello, Welcome to Cafe Esperanza.
+       I'm Ava and I'll be your waitress today.
+       What would you like to start with?'''
+print(cafe)
+
 #removing spaces
 user_name = "    Addah Lovelace   "
 print(user_name.lstrip())
