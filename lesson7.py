@@ -10,7 +10,7 @@ print(f"Hello I am {student[1]} and I study at school of {school[1]} ")
 print(f"Hello I am {student[2]} and I study at school of {school[2]} ")
 print(f"Hello I am {student[3]} and I study at school of {school[3]} ")
 
-#or
+#for loop
 for students in student:
     print(f'Hello I am {student}')
 print("\t")

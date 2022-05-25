@@ -6,7 +6,7 @@
 
 acc_balance = input("Enter your account balance") 
 if (int(acc_balance) > 100,000) and (int(acc_balance) < 200,000):
-    elif (float(0.3 * acc_balance) > 500,000) and (float(0.3 * acc_balance) < 1,000,000):
+     (float(0.3 * acc_balance) > 500,000) and (float(0.3 * acc_balance) < 1,000,000):
 
 elif (int(acc_balance) > 1,000,000):
     newacc_balance = acc_balance - 25,000

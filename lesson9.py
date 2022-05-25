@@ -1,7 +1,8 @@
  #!/usr/bin/python
 #If statements
-legalage = 18
-myage = 14
-if legalage> myage:
+legal_age = 18
+my_
+age = 14
+if (legal_age == my_age):
     print("You are not allowed to drive")
 
