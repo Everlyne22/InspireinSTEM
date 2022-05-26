@@ -12,6 +12,9 @@ owner = ['Marilyn' , 'Monroe' , 'Dominic' , 'Lylah']
 #accessing an item from the list using indices
 print(cars[0])
 
+#Finding the type of data structure
+print(type(cars))
+
 #changing/replacing an item in a list
 cars[2] = "Tesla"
 print(cars)
