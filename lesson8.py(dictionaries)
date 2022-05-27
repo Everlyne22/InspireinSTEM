@@ -72,3 +72,11 @@ while i <= len(colors):
 #it gives two responses
 print(person.get("Phone number", "the '\Phone number\' key is non-existent"))
 print(Student.get('Hometown'))
+
+#dictionary containing the two lists
+Kieranfav_food = ['Fries' , 'Rice' , 'Chicken'] 
+Jekyllfav_food = ['Lasagna' , 'Beef' , 'Chapati']
+Fav_foods = {"Kieran": [Kieranfav_food] , "Jekyll" : [Jekyllfav_food]}
+print(Fav_foods)
+print(type(Fav_foods))
+
