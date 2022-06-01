@@ -7,12 +7,12 @@
 acc_balance = input("Enter your account balance") 
 if (int(acc_balance) > 100000 and int(acc_balance) < 200000):
      newacc_balance = int(acc_balance) - 25000
-     print("We have deducted Ksh. 25000 from your account.")
+     print("We have deducted Ksh. 25000 from your account. Your new account balance is Ksh. " + str(newacc_balance))
 
 elif(int(acc_balance) > 500000 and int(acc_balance) < 1000000):
      newwacc_balance = int(acc_balance) - (0.3 * int (acc_balance))
-     print("We have deducted 30 percent from your account.")
+     print(f"We have deducted 30 percent from your account. Your new account balance is Ksh. " + str(newwacc_balance))
 
 elif (int(acc_balance) > 1000000):
     newwwacc_balance = int(acc_balance) - 15000
-    print("We have deducted Ksh. 15000." + str(newwwacc_balance)  )
+    print("We have deducted Ksh. 15000. Your new account balance is Ksh. " + str(newwwacc_balance)  )

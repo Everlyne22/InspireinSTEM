@@ -6,9 +6,10 @@ vehicles = ['bmw' , 'audi' , 'renault' , 'mercedes' , 'jeep']
 
 #using for loops to print a list
 for vehicle in vehicles:
-    if (vehicle == "jeep"):
-       print(vehicle.upper())
+    if vehicle == "jeep":
+        print(vehicle.upper())
 
-#print every color in uppercase using every loop
-#for loop, nestled loop, while loop
-
+colors = ['blue', 'red' , ' yellow']
+for color in colors:
+    if color == "blue":
+        print(color[:2])

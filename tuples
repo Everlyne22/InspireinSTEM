@@ -1,0 +1,45 @@
+ #!/usr/bin/python
+#######################################################################################
+                #Name: Everlyne
+                #Date: 30/05/2022
+                #TUPLES
+#######################################################################################
+
+#LISTS - Box brackets
+#DICTIONARIES - Curly Brackets
+#TUPLES  - Round brackets
+#they store multiple items in a single variable
+#can be ordered and is unchangeable
+#the built in data types that stor4e collections of data in one variable include
+    #list, set, dictionary, tuple
+   
+#create a tuple
+fruits = ("cherry", "banana", "grapes", "kiwi", "apple")
+print(fruits)
+
+#accessing an item from a tuple using indexes
+print(fruits[1])
+
+#Tuples are unchangeable, cannot be edited, added, removed once a tuple is created
+#fruits[0] = "guava" #error
+
+ #finding how many items are in a tuple use (len)
+print(len(fruits))
+
+#finding the data structure
+print(type(fruits))
+
+#create a tuple using the tuple function
+motorcycles = tuple(("Ducati", "Harley", "Ninja", "Chopper"))
+print(motorcycles)
+
+#can consist of only one item but has to have a comma after it to acknowledge it as a tuple
+colors = ("violet",)
+print(type(colors))
+
+for motorcycle in motorcycles:
+    print(motorcycle)
+
+cars = ("Audi", "Tesla", "BMW", "Honda")
+cars = ("Maserati", "Cadillac", "BMW", "Honda")
+print(cars)

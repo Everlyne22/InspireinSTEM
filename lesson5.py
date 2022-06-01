@@ -1,4 +1,9 @@
  #!/usr/bin/python
+ ###########################################
+       #Name: Everlyne
+       #Date:
+       #STRING methods
+####################################################
 #string methods
 name = "Everlyne Njuguna"
 age = 17
@@ -50,6 +55,7 @@ f_name = "Luke"
 s_name = "Boss"
 full_name = f_name + s_name
 print(full_name.replace('B' ,'G'))
+
 
 #split
 msg = "Hello World" #separates words and puts them in a sort of list
