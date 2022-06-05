@@ -1,5 +1,9 @@
  #!/usr/bin/python
-
+ #################################
+    #Name: Everlyne 
+    #Date: 27/05/2022
+    #FACTORIAL
+###################################    
 number = int(input("Enter the number here"))
 factorial = 1
 if number< 0:

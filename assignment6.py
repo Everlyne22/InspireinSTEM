@@ -9,7 +9,7 @@ for i in range(1, n+1):
     print(n_term)
 
 if r> 1:
-    S_n = a*(r**n-1) / (r-1)
+    S_n = a*((r**n)-1) / (r-1)
 else:
     if r< 1:
         S_n = a*(1-r**n) / (1-r)

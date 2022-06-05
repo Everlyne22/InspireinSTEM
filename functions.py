@@ -1,7 +1,7 @@
  #!/usr/bin/python
  #######################################################################################
                 #Name: Everlyne 
-                #Date: 31/05/2022
+                #Date: 31/05/2022 // 03/06/2022
                 #FUNCTIONS
  ########################################################################################
  
@@ -48,3 +48,42 @@ def prod (x,y):
 
 prod(56,97)
 prod(39, 77)
+
+#setting parameters on default
+def print_name(name= "Madison"):
+    print(name)
+print_name("Bill")
+
+#return from a function
+def get_sum(num1, num2):
+    sum_Of = num1 + num2
+    return sum_Of
+print(get_sum(24, 11))
+
+#write a function that gets the square of numbers
+def squares(number, power):
+    squares_num = number ** power
+    return squares_num
+print(squares(6, 4))
+
+#write a function that types your full name
+def get_full_name(first_name, sec_name):
+    full_name = first_name +  " " +  sec_name
+    return full_name.title()
+print(get_full_name("Nancy", "Mwai"))
+
+#returning a dictionary from a function
+def create_full_name(first_name, sec_name):
+    person = {'first' : first_name, 'second' : sec_name}
+    return person
+student = create_full_name ('Regina',  'Hall')
+print(student)
+
+
+#parsing a list in a function
+def greet_friends(names):
+    for name in names:
+        msg = "Hello " + name.title() + "! You are invited to a function tomorrow. Red is the theme." 
+        print(msg)
+friends = ['Sharon', 'Stacey', 'Neema', 'Anthony']
+greet_friends(friends)
