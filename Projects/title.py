@@ -12,4 +12,6 @@
             #'T', 'U', 'V', 'W', 'X','Y', 'Z']
         
 
-import string = strin
+# import string = strin
+
+# THE ROCK , PAPER , SCISS0RS , GAME

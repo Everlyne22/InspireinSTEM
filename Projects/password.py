@@ -10,13 +10,10 @@ characters = "houseseout#786*675%"
 num_passwords = int(input("Enter number of passwords to be generated: "))
 len_password = int(input("Enter length of password here: "))
 
-if characters == characters:
-    answer=input("Do you want to include similar characters? ")
-    if answer == "yes" or "Yes":
 
-        print("Here are your passwords. ")
-        for password in range(num_passwords):
-            passwords = " "
-            for character in range(len_password):
-                
+print("Here are your passwords. ")
+for password in range(num_passwords):
+    passwords = " "
+    for character in range(len_password):
+        password += random.choice(character)       
            

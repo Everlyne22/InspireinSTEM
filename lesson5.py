@@ -14,7 +14,7 @@ print(person)
 print("My name is {} and I am {} years old " .format(name,age) )
 
 #newline \n 
-print("January\nFebruary\nMarch\nApril\nMay\n")
+print("January\February\nMarch\nApril\nMay\n")
 
 #tab \t
 print("Kisumu\tNairobi\tMombasa\tKiambu")
