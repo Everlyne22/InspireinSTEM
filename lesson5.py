@@ -1,10 +1,10 @@
  #!/usr/bin/python
  ###########################################
        #Name: Everlyne
-       #Date:
+       #Date: 18/05/2022
        #STRING methods
 ####################################################
-#string methods
+#string concatenation
 name = "Everlyne Njuguna"
 age = 17
 person = "I am " + str(name) + " and my age is " + str(age)
@@ -65,7 +65,6 @@ print(msg.split())
 print(len(msg))
 print(len(full_name))
 
-#concatination
 #converting from one data tytpe to another
 #float(decimals) to integers(numbers) and V.vars()
 x = 5  #integer
@@ -73,5 +72,8 @@ print(float(x))
 y = 46.87
 print(int(y))
 
-
+#boolean data type 
+#there are only two types : TRUE AND FALSE
+is_true = True
+print(type(is_true))
 

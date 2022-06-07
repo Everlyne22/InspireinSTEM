@@ -1,5 +1,9 @@
- #!/usr/bin/python
- 
+#!/usr/bin/python
+##########################################################
+        #Name: Everlyne 
+        #Date: 17/05/2022
+        #STRING CONCATENATION
+############################################################
 my_first_name="Everlyne"
 print("I am " + my_first_name)
 school_attended="Loreto Limuru"

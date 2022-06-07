@@ -1,7 +1,8 @@
  #!/usr/bin/python
 ##########################################################
-        #Name: Everlyne Njuguna
+        #Name: Everlyne 
         #Date: 19/05/2022
+        #LISTS
 #############################################################
 #list
 #initializing a list
