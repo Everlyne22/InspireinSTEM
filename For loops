@@ -1,23 +1,23 @@
-c #!/usr/bin/python
+#!/usr/bin/python
  #################################
     #Name: Everlyne 
     #Date:
     #LOOPS
 ###################################    
 #Creating loops
-school = ['Mercy' , 'Joy' , 'Peace' , 'Kindness']
-student =['Nadia' , 'Raziel' , 'Selene' , 'Dominic' , 'Caitlin']
-print(f"Hello I am {student[0]} and I study at school of {school[0]} ")
-print(f"Hello I am {student[1]} and I study at school of {school[1]} ")
-print(f"Hello I am {student[2]} and I study at school of {school[2]} ")
-print(f"Hello I am {student[3]} and I study at school of {school[3]} ")
+schools = ['Mercy' , 'Joy' , 'Peace' , 'Kindness']
+students =['Nadia' , 'Raziel' , 'Selene' , 'Dominic' , 'Caitlin']
+print(f"Hello I am {students[0]} and I study at school of {schools[0]} ")
+print(f"Hello I am {students[1]} and I study at school of {schools[1]} ")
+print(f"Hello I am {students[2]} and I study at school of {schools[2]} ")
+print(f"Hello I am {students[3]} and I study at school of {schools[3]} ")
 
 #for loops
-for students in student:
-    print(f'Hello I am {student}')
+for student in students:
+    print(f'Hello I am {students}')
 print("\t")
-for school in school:
-    print(f'I attend the school of {school}')
+for school in schools:
+    print(f'I attend the school of {schools}')
 
 squares = []
 for number in range(0,10):
@@ -40,6 +40,8 @@ sum = 0
 for number in range (0,100):
     sum = sum + number
 print(sum)
+
+
 
 
 

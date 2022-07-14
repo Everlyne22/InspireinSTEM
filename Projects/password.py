@@ -6,7 +6,7 @@
 ###################################    
 import random
 print("Hey! Welcome to Strong Password Generator!")
-characters = "houseseout#786*675%"
+characters = "huinjfhw67927%$"
 num_passwords = int(input("Enter number of passwords to be generated: "))
 len_password = int(input("Enter length of password here: "))
 

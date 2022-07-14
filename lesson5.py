@@ -19,7 +19,7 @@ print("January\February\nMarch\nApril\nMay\n")
 #tab \t
 print("Kisumu\tNairobi\tMombasa\tKiambu")
 
-print ("My name is\t {}\t and I am {}\tyears old." .format(name,age))
+print ("My name is\t{}\t and I am{}\tyears old." .format(name,age))
 
 msgs = '''QEN5H2OXVD confirmed
        you have received Ksh. 50,000 from
@@ -27,10 +27,13 @@ msgs = '''QEN5H2OXVD confirmed
        ''' 
 print(msgs)
 
-cafe = '''Hello, Welcome to Cafe Esperanza.
-       I'm Ava and I'll be your waitress today.
-       What would you like to start with?'''
-print(cafe)
+#multiline strings/comments that is not executed by python
+'''
+Hello, Welcome to Cafe Esperanza.
+I'm Ava and I'll be your waitress today.
+What would you like to start with?
+'''
+
 
 #removing spaces
 user_name = "    Addah Lovelace   "

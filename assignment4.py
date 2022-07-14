@@ -16,3 +16,11 @@ elif(int(acc_balance) > 500000 and int(acc_balance) < 1000000):
 elif (int(acc_balance) > 1000000):
     newwwacc_balance = int(acc_balance) - 15000
     print("We have deducted Ksh. 15000. Your new account balance is Ksh. " + str(newwwacc_balance)  )
+
+pass_mark = int(45)
+your_marks = int(input("Enter your marks here: "))
+if (your_marks >= pass_mark):
+     print("Congratulations! You can eat ice cream today!")
+     
+else:
+     print("You need to resit the test again!")

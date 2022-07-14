@@ -1,48 +1,55 @@
- #!/usr/bin/python
+#  #!/usr/bin/python
 
-#for number in range(0,20):
-    #print (number)
+# for number in range(0,20):
+#     print (number)
 
-#print even numbers 
-#using modulus (%) returns the remainder of the number
-#for number in range(0,20):
-    #if (number%2 == 0):
-        #print(number)
+# #print even numbers 
+# #using modulus (%) returns the remainder of the number
+# #check if number is an even number
+# for number in range(0,20):
+#     if (number%2 == 0):
+#         print(number)
 
-#sum of all even numbers between 0 and 50
-sum = 0
-#for number in range(0,50):
-    #if (number %2 == 0):
-        #sum = sum + number
-#print(sum)
+# #sum of all even numbers between 0 and 50
+# sum = 0
+# #for number in range(0,50):
+#     #if (number %2 == 0):
+#         #sum = sum + number
+# #print(sum)
 
-#product of all odd numbers between 0 and 50
-product = 1
-#for number in range (0,20):
-    #if (number % 2 == 1):
-        #product = number * product
-#print(product)
-
-
-#start initalising
-num = 0
-while num < 10:
-    print(num)
-    num = num+1
-#displaying even numbers
-num = 0
-while num <= 10:
-    if num%2 == 0:
-        print(num)
-        num = num + 2
-
-num = 0
-while num <= 10:
-    if num%2==1:
-        print(num)
-        num = num + 2
+# #product of all odd numbers between 0 and 50
+# product = 1
+# #for number in range (0,20):
+#     #if (number % 2 == 1):
+#         #product = number * product
+# #print(product)
 
 
-imp
+# #start initalising
+# num = 0
+# while num < 10:
+#     print(num)
+#     num = num+1
+# #displaying even numbers
+# num = 0
+# while num <= 10:
+#     if num%2 == 0:
+#         print(num)
+#         num = num + 2
+
+# num = 0
+# while num <= 10:
+#     if num%2==1:
+#         print(num)
+#         num = num + 2
+
+#print the mathematical table of 2
+i = 1
+j = 2
+while (i <= 10):
+    print(j, " x ", i, " = ", i*j)
+    i = i + 1
+
+
 
 

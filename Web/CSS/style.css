@@ -1,0 +1,20 @@
+body{
+    margin: 50px;
+    background-color: sienna;
+}
+
+#nav-1{
+    background-color: crimson;
+    margin: 20px;
+}
+
+/*This is a comment on CSS */
+/*Targeting a class classes help with reusing the same style in another element such as a paragraph*/
+.block{
+    color: blue;
+}
+
+.meta-data{
+    font-weight: 400;
+    font-size: 23px;
+}
